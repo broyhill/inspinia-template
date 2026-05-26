@@ -60,7 +60,7 @@ office:
 
 ## Council of State office list
 
-| Office | Current officeholder source context | Department or administrative center |
+| Office | Election and role context | Department or administrative center |
 | --- | --- | --- |
 | Governor | Statewide elected chief executive | Office of the Governor; appointed Cabinet; boards and commissions |
 | Lieutenant Governor | Statewide elected second executive officer | Office of the Lieutenant Governor; Senate presiding role; ex officio education boards |
@@ -381,8 +381,9 @@ Colleges. Source: <https://ltgov.nc.gov/about>.
 
 The Secretary of State leads the Department of the Secretary of State. The
 office records and administers public filings, business entity records, securities
-regulation, charitable solicitation licensing, land records support, trademarks,
-notary and authentication services, and other statutory functions. Source:
+regulation, charitable solicitation licensing, lobbying compliance, land records
+support, trademarks, notary and authentication services, and other statutory
+functions. Source:
 <https://sosnc.gov/>.
 
 ### Divisions, programs, and registries to map
@@ -390,6 +391,7 @@ notary and authentication services, and other statutory functions. Source:
 - Business Registration Division
 - Securities Division
 - Charitable Solicitation Licensing Division
+- Lobbying Compliance Division
 - Land Records Management Section
 - Notary public commissioning and electronic notary functions
 - UCC and secured transaction filings
@@ -412,6 +414,11 @@ Official division examples:
 - Charities maintains a registry of organizations licensed to solicit charitable
   contributions and licenses professional fundraisers.
   Source: <https://sosnc.gov/divisions/charities>.
+- Lobbying Compliance registers lobbyists, lobbyist principals, state liaisons,
+  and local government liaisons; receives required reports; publishes searchable
+  directories; and administers and enforces assigned portions of the Lobbying
+  Act under Chapter 120C.
+  Source: <https://sosnc.gov/divisions/lobbying>.
 - Land Records assists local governments with indexing, electronic access,
   storage standards, county maps, municipal annexation maps, municipal charter
   amendments, and county boundary maps.
@@ -422,6 +429,8 @@ Official division examples:
 - Statewide business entity filing and public registry administration
 - Securities registration, examination, investor protection, and enforcement
 - Charitable solicitation licensing and enforcement
+- Lobbying registration, reporting, disclosure, compliance review, and
+  enforcement for covered state and local government lobbying activity
 - Local land records standards and technical assistance
 - Notary commission administration
 - Official records, publications, certifications, and authentication services
@@ -430,9 +439,9 @@ Official division examples:
 ### Regulatory authority
 
 Key legal areas include business entity statutes, filing and registered agent
-laws, North Carolina Securities Act, charitable solicitation law, trademark law,
-telephonic seller registration, land records management, and other laws listed
-by the Secretary of State statutory authority page:
+laws, North Carolina Securities Act, charitable solicitation law, the Lobbying
+Act, trademark law, telephonic seller registration, land records management, and
+other laws listed by the Secretary of State statutory authority page:
 <https://sosnc.gov/home/statutory_authority>.
 
 ### Affected voter categories
@@ -443,6 +452,9 @@ by the Secretary of State statutory authority page:
   small businesses raising capital
 - Donors, charities, charitable sponsors, professional fundraisers, and
   disaster-relief donors
+- Lobbyists, lobbyist principals, state agency liaisons, local government
+  liaisons, legislators, appointed officials, journalists, watchdog groups, and
+  voters tracking influence on government decisions
 - Consumers targeted by securities fraud, charity scams, or misleading business
   mailings
 - County registers of deeds, GIS offices, planners, surveyors, real estate
@@ -458,6 +470,9 @@ by the Secretary of State statutory authority page:
 - Connect each filing type to the statute and administrative rule.
 - Separate administrative filing duties from enforcement duties.
 - Track fees, penalties, exemptions, and appeal rights.
+- Add a lobbying-disclosure subtable for registrants, principals, liaisons,
+  quarterly reports, monthly reports during session when required, complaint
+  pathways, penalties, and searchable public directories.
 
 ## Office 4: State Auditor
 
@@ -563,6 +578,8 @@ Specific connected bodies and programs include:
 - Supplemental Retirement Plans
 - State Health Plan
 - Local Government Commission
+- State Board of Education ex officio membership
+- State Board of Community Colleges ex officio membership or designee role
 - Debt Affordability Advisory Committee
 - North Carolina Capital Facilities Finance Agency
 - Cash management and short-term investment fund
@@ -577,6 +594,10 @@ Specific connected bodies and programs include:
   Department
 - Support state and local debt issuance
 - Serve as chair of the Local Government Commission
+- Serve as an ex officio member of the State Board of Education under Article
+  IX, Section 4 of the North Carolina Constitution
+- Serve, or designate a representative to serve, as an ex officio member of the
+  State Board of Community Colleges under G.S. 115D-2.2
 - Staff the LGC, which approves local government debt, sells local debt on
   behalf of local units, monitors fiscal health, oversees annual independent
   audits, and provides financial administration assistance
@@ -603,6 +624,8 @@ Local Government Commission source:
   state systems
 - Legislators and oversight committees monitoring pension, debt, and health
   costs
+- Public school students, parents, educators, and community college students
+  affected by the Treasurer's ex officio education board roles
 
 ### Completion checklist
 
@@ -620,8 +643,11 @@ Local Government Commission source:
 
 The Superintendent of Public Instruction is the elected head of the Department
 of Public Instruction and oversees the public school systems of the state. The
-Superintendent is a Council of State member and State Board of Education member.
-Source: <https://www.dpi.nc.gov/about-dpi>.
+Superintendent is a Council of State member and serves as secretary and chief
+administrative officer of the State Board of Education, rather than as a voting
+State Board member. Sources: <https://www.dpi.nc.gov/about-dpi>,
+<https://ncleg.gov/Laws/Constitution/Article9>, and
+<https://ncleg.net/EnactedLegislation/Statutes/PDF/ByArticle/Chapter_115C/Article_3.pdf>.
 
 NCDPI implements state public school laws for pre-kindergarten through 12th
 grade public schools at the direction of the State Board of Education and the
@@ -636,7 +662,8 @@ administrators. Source: <https://www.dpi.nc.gov/about-dpi>.
 ### Divisions, boards, and programs to map
 
 - Office of the State Superintendent
-- State Board of Education relationship
+- State Board of Education secretary and chief administrative officer
+  relationship
 - Office of the State Board of Education
 - Internal Audit
 - Deputy Superintendent and agency executive leadership
@@ -1002,6 +1029,9 @@ Official division source: <https://www.labor.nc.gov/about-ncdol/divisions>.
   - Retaliatory Employment Discrimination
   - Mine and Quarry
   - Wage and Hour
+- State Board of Community Colleges ex officio membership or designee role
+  under G.S. 115D-2.2:
+  <https://ncleg.gov/enactedlegislation/statutes/pdf/bysection/chapter_115d/gs_115d-2.2.pdf>
 
 ### Functions and jurisdictions
 
@@ -1021,6 +1051,9 @@ Official division source: <https://www.labor.nc.gov/about-ncdol/divisions>.
   amusement rides, and related devices within jurisdiction
 - Regulate mine and quarry safety and training
 - Investigate retaliation complaints under protected labor and safety statutes
+- Serve, or designate a representative to serve, as an ex officio member of the
+  State Board of Community Colleges, connecting labor, workforce training,
+  apprenticeships, and community college policy
 
 ### Affected voter categories
 
@@ -1038,6 +1071,9 @@ Official division source: <https://www.labor.nc.gov/about-ncdol/divisions>.
 - Boiler and pressure vessel owners and operators
 - Retaliation complainants and whistleblowers
 - Local governments and schools operating public workplaces and facilities
+- Community college students, faculty, trustees, employers, and workforce
+  partners affected by the Commissioner's ex officio community college board
+  role
 
 ### Completion checklist
 
@@ -1058,7 +1094,7 @@ judicial, sheriff, city council, county commission, and school board offices.
 After the Council of State map is complete, expand using the same schema in the
 following order.
 
-### Phase 2: State legislative and judicial offices
+### Phase 2: Federal, state legislative, and judicial offices
 
 - U.S. Senate and U.S. House districts touching North Carolina
 - Governor and Council of State completed in Phase 1
